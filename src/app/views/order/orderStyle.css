@@ -1,0 +1,43 @@
+.w50 {
+    width: 50%;
+}
+
+.parent-wrapper {
+    width: 100%;
+}
+
+.child {
+    display: inline-block;
+    flex-grow: 1;
+    cursor: pointer;
+    width: calc(100% * (1/4) - 17px - 1px)
+}
+
+
+
+/* View Enquiry List */
+.custom-table-design{
+    color: #332e38;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.custom-table-designtcbody tr td{
+    vertical-align: middle;
+}
+/* View Enquiry List  ends*/
+
+/* Filter Component */
+.FilterComponent .css-1okebmr-indicatorSeparator{
+    display: none;
+}
+.FilterComponent button,input{
+    color: hsl(0, 0%, 50%);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.FilterComponent  label{
+    color:#333;
+}
+/* Filter Component End */
